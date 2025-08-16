@@ -6,7 +6,7 @@ extends CharacterBody2D
 const SPEED = 100.0
 const JUMP_VELOCITY = -200.0
 
-var sprite_frames = preload("res://assets/sprites/player.tres")
+var sprite_frames = preload("res://assets/sprites/PlayerIdle.tres")
 
 func _ready():
 	$AnimatedSprite2D.frames = sprite_frames
