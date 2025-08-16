@@ -10,7 +10,7 @@ var sprite_frames = preload("res://assets/sprites/player.tres")
 
 func _ready():
 	$AnimatedSprite2D.frames = sprite_frames
-	$AnimatedSprite2D.play("walk")  # Replace with your animation name
+	$AnimatedSprite2D.play("default")  # Replace with your animation name
 
 
 func _physics_process(delta: float) -> void:
