@@ -29,11 +29,10 @@ collision_layer = 7
 collision_mask = 7
 
 [node name="Camera2D" type="Camera2D" parent="."]
-offset = Vector2(0, -94)
-zoom = Vector2(5, 5)
+offset = Vector2(0, -74)
+zoom = Vector2(4, 5)
 
 [node name="Controls" parent="Camera2D" instance=ExtResource("2_sbm0d")]
-visible = false
 position = Vector2(0, -53.04)
 scale = Vector2(0.25, 0.25)
 
